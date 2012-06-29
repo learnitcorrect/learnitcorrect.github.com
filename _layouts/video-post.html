@@ -42,6 +42,7 @@
 		<div id='content'>
 	
 			<div id='pageList'>
+				<h2>Topics</h2>
 				<ul>
 					{% for p in site.posts %}
 						<li><a {% if (p.title == page.title)%} class='selected'{% endif %}href='{{p.url}}'>{{p.title}}</a></li>
