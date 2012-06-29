@@ -49,9 +49,12 @@
 					{% endfor %}
 
 				</ul>
+
+				{%  if page.type != 'index' %}
 				<a href='http://www.udemy.com/codeigniter-learn-it-correct/?couponCode=tutorial-site'>
 					<img class='c2a' src='/images/left-c2a.png'/>
 				</a>
+				{% endif %}
 			</div>
 
 			<div id='page'>
@@ -65,7 +68,7 @@
 					</div>
 
 					<div id='content'>
-						{{site.post[0].content}}
+						{{site.posts[0].content}}
 					</div>
 
 				{% else %}
