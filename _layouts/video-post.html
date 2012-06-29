@@ -59,6 +59,7 @@
 				{% if page.type == 'index' %}
 				
 					<h1 id='page-title'>{{site.posts[0].title}}</h1>
+
 					<div id='video'>
 						<iframe width="640" height="480" src="http://www.youtube-nocookie.com/embed/{{site.posts[0].video}}?autohide=1&autoplay=0" frameborder="0" allowfullscreen></iframe>
 					</div>
@@ -66,9 +67,12 @@
 				{% else %}
 
 					<h1 id='page-title'>{{page.title}}</h1>
+
+					{% if page.video %}
 					<div id='video'>
 						<iframe width="640" height="480" src="http://www.youtube-nocookie.com/embed/{{page.video}}?autohide=1&autoplay=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 					</div>
+					{% endif %}
 
 				{% endif %}
 	
@@ -76,7 +80,7 @@
 					{{content}}
 				</div>
 
-				<h2>Comments</h2>
+				<h3>Comments</h3>
 				<script type="text/javascript">
 					var fbCommentBox= '<div class="fb-comments" data-href="' + location.href + '" data-num-posts="5" data-width="700"></div>';
 					document.write(fbCommentBox);
