@@ -1,0 +1,5 @@
+permalink: /codeigniter-tutorial/:title.html
+exclude:
+- README.md
+- Rakefile
+- post.sh
