@@ -1,7 +1,7 @@
 <html>
 <head>
 	
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/video.css">
 	<link rel="stylesheet" type="text/css" href="/css/monokai.css">
 	<title>{{page.title}} - Codeigniter Tutorial</title>
 	<script type="text/javascript" src='/js/highlight.pack.js'></script>
@@ -45,7 +45,9 @@
 				<h2>Topics</h2>
 				<ul>
 					{% for p in site.posts %}
-						<li><a {% if (p.title == page.title)%} class='selected'{% endif %}href='{{p.url}}'>{{p.title}}</a></li>
+						{% if p.category == 'codeigniter-tutorial' %}
+							<li><a {% if (p.title == page.title)%} class='selected'{% endif %}href='{{p.url}}'>{{p.title}}</a></li>
+						{% endif %}
 					{% endfor %}
 
 				</ul>

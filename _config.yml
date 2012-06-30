@@ -1,4 +1,5 @@
 permalink: /:categories/:title.html
+url: "http://learnitcorrect.com"
 exclude:
 - README.md
 - Rakefile

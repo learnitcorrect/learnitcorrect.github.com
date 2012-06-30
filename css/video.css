@@ -1,11 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 
 body {
 	margin: 0px;
 	text-align: center;
 	padding: 0px 20px 0px 20px;
-	border-top: 4px solid #333;
 }
 
 body, div, a, input, select, button, textarea {
@@ -20,7 +18,7 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 img{
@@ -36,7 +34,7 @@ h1 {
 }
 
 
-#layout {
+#dokeeno-content {
 	width: 930px;
 	margin: auto;
 	text-align: left;
@@ -83,7 +81,7 @@ h1 {
 }
 
 #content {
-	margin: 20px 0px 0px;
+	
 }
 
 #footer {
@@ -94,80 +92,47 @@ h1 {
 	font-size: 13px;
 }
 
-.post {
-	margin: 0px 20px 20px 0px;
-	width: 265px;
-	float: left;
-	border-radius: 3px;
-    padding: 10px;
-    border: 1px solid #eee;
-}
 
-.post-title {
-	margin: 0px 0px 8px 0px;
-	line-height: 20px;
-	font-size: 20px;
-}
-
-.post-image{
-	width: 250px;
-	box-shadow: 0 0px 0px #cccccc;
-	border-radius: 0px;
-    margin: 10px 0px 10px 0px;
-}
-
-.post-date {
-	font-size: 11px;
-	color: #666;
-}
-
-.post-content {
-	margin-top: 10px;
-	font-size: 13px;
-}
-
-#side-bar {
+#pageList {
 	width: 200px;
 	float: left;
-	margin: 30px 0px 0px 0px;
+	margin-top: 45px;
+	padding: 0px 20px 0px 0px;
 }
 
-#side-bar #user-name{
-	font-size: 12px;
-	margin: 5px 0px 0px 0px;
+#pageList ul {
+	list-style-type: none;
+	padding: 0px ;
 }
 
-#side-bar #tags {
-
-	margin: 20px 0px 0px 0px;
+#pageList ul li {
+	padding: 3px 0px 3px 5px;
 }
 
-#side-bar #date {
-	font-size: 11px;
+#pageList ul li:hover {
+	background-color: #FFD5E5;
+	color: white;
+}
+
+#pageList ul li a {
+	color: #333;
+}
+
+#pageList ul li a:hover {
+	text-decoration: none;
+}
+
+#pageList .selected {
+
+	border-left: 7px solid #d40055;
+	padding-left: 5px;
 }
 
 #page-title {
-	margin-top: 0px;
-	padding-top: 0px;
-	font-size: 30px;
+	color: #d40055;
 }
 
 #page {
-	margin-top: 20px;
 	width: 700px;
 	float: left;
-	padding-left: 20px;
-	border-left: 1px dashed #ddd;
 }
-
-.tag {
-	font-size: 12px;
-    padding: 2px 6px 2px 6px;
-    color: white;
-    line-height: 24px;
-}
-
-.nodejs { background-color: #008080}
-.php { background-color: #aa00d4}
-.js { background-color: #2d5016}
-
