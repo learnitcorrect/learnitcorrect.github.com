@@ -44,10 +44,8 @@
 			<div id='pageList'>
 				<h2>Topics</h2>
 				<ul>
-					{% for p in site.posts %}
-						{% if p.category == 'codeigniter-tutorial' %}
+					{% for p in site.categories.codeigniter-tutorial %}
 							<li><a {% if (p.title == page.title)%} class='selected'{% endif %}href='{{p.url}}'>{{p.title}}</a></li>
-						{% endif %}
 					{% endfor %}
 
 				</ul>
@@ -63,14 +61,14 @@
 
 				{% if page.type == 'index' %}
 				
-					<h1 id='page-title'>{{site.posts[0].title}}</h1>
+					<h1 id='page-title'>{{site.categories.codeigniter-tutorial[0].title}}</h1>
 
 					<div id='video'>
 						<iframe width="640" height="480" src="http://www.youtube-nocookie.com/embed/{{site.posts[0].video}}?autohide=1&autoplay=0" frameborder="0" allowfullscreen></iframe>
 					</div>
 
 					<div id='content'>
-						{{site.posts[0].content}}
+						{{site.categories.codeigniter-tutorial[0].content}}
 					</div>
 
 				{% else %}
