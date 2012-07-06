@@ -167,9 +167,19 @@ h1 {
     line-height: 24px;
 }
 
+blockquote{
+
+	font-family: Georgia;
+	font-size: 18px;
+	font-style: italic;
+	border-left: 4px solid #ddd;
+	padding-left: 20px;
+}
+
 .nodejs { background-color: #008080}
 .php { background-color: #aa00d4}
 .js { background-color: #2d5016}
 .jekyll { background-color: #aa0088}
+.gov { background-color: #bb0066}
 .github { background-color: #8b4513}
 
