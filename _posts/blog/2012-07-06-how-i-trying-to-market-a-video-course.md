@@ -2,7 +2,7 @@
 layout: blog
 title: How I am trying to market my video course
 category: blog
-tags: [Jekyll, Github, Gov]  
+tags: [Jekyll, Github, Marketing]  
 summery: "I'm the instructor of Codeigniter for Beginners course at udemy. I've tried several marketing methods and had few sales. Now I'm looking for more sales with a PPC campaign for my course."
 image: 'http://tutorialcodeigniter.com/images/codeigniter-more-videos.png'
 ---

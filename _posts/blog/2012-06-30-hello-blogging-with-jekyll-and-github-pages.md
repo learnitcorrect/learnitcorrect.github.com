@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Hello blogging with Jekyll & Github 
+title: Hello blogging with Jekyll & Github Pages
 category: blog
 tags: [Jekyll, Github]  
 summery: "I always wanted to blog, but whatever the reason something has stopped it. I did a mistake and I wanted to correct it. And I did it this time for http://learnitcorrect.com and here it is :)"
