@@ -11,7 +11,7 @@ I'm the instructor of [Codeigniter for Beginners](http://www.udemy.com/codeignit
 
 However things doesn't worked as I planned and I didn't get any leads from the PPC campaign. Eventually I discovered this. 
 
-> People who are clicking the adds does not have the **intention** to buy the course right away.
+> People who are clicking the adds do not have the **intention** to buy the course right away.
 
 I need to convince them to but it from me. So the landing page at udemy(my course) is not enough. I need something more. That's why I came up with this plan. I've demonstrated it in the following video.
 
