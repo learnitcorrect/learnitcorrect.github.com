@@ -10,8 +10,8 @@ layout: nil
     <link>{{site.url}}</link>
     <language>en</language>
     <copyright>learnitcorrect.com</copyright>
-    <pubDate>{{site.posts[0].date}}</pubDate>
-    <lastBuildDate>{{site.posts[0].date}}</lastBuildDate>
+    <pubDate>{{site.posts[0].date | date: "%a, %d %b %Y %H:%M:%S %z"}}</pubDate>
+    <lastBuildDate>{{site.posts[0].date | date: "%a, %d %b %Y %H:%M:%S %z"}}</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="http://www.learnitcorrect.com/blog/rss.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -26,7 +26,7 @@ layout: nil
       <description>{{post.content}}</description>
       <link>{{site.url}}{{post.url}}</link>
       <guid isPermaLink="true">{{site.url}}{{post.url}}</guid>
-      <pubDate>{{post.date}}</pubDate>
+      <pubDate>{{post.date}} | date: "%a, %d %b %Y %H:%M:%S %z"</pubDate>
     </item>
     {% endfor %}
   
