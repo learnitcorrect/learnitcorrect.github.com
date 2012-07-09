@@ -7,6 +7,10 @@ summery: "Websocket is great. But it is using Origin policy to make it secure. B
 image: /images/blog/websocket-logo.jpeg
 ---
 
+>**EDIT**
+>
+>Although Origin header can be spoofed, it helps against [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks. See below and [Hacker News thread](http://news.ycombinator.com/item?id=4215483) for the comments. 
+
 Today, I was looking at WebSocket Specification. I was looking for a way to secure WebSocket. I found something interesting on their [Protocol Specification](http://tools.ietf.org/html/rfc6455).
 
 ##Security with WebSocket
