@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	margin: 0px;
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+	border-top: 4px solid #333;
+}
+
+body, div, a, input, select, button, textarea {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #333333;
+}
+
+#content {
+	width: 930px;
+	margin: auto;
+}
+
+#title {
+	margin: 50px 0px 0px 0px;
+	font-weight: normal;
+	font-size: 70px;
+	color: #0088aa;
+}
+
+#title em {
+	color: #d40055;
+	font-style: normal;
+}
+
+/* INTRO BOX */
+
+#intro-box {
+	margin: 20px 0px 0px 0;
+	padding: 20px 10px 20px 10px;
+	background-color: #edf6f9;
+}
+
+#intro-box h2 {
+	font-weight: normal;
+}
+
+#title2 {
+	font-size: 35px;
+	margin: 0px 0px 10px 0px;
+}
+
+#title2_1 {
+	margin: 0px auto 30px auto;
+	padding: 5px;
+	font-size: 25px;
+	background-color: #00aad4;
+	width: 210px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#main-c2a {
+	margin: 30px 0px 0px 0px;
+}
+
+#main-c2a button {
+	width: 250px;
+	margin: 10px;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+	padding: 10px 0px 10px 0px;
+	outline: 0px;
+	cursor: pointer;
+}
+
+#reserve_c2a {
+	background-color: #668000;
+}
+
+#reserve_c2a:hover {
+	box-shadow: 0 0px 10px #668000;
+}
+
+#why_c2a {
+	background-color: #c83737;
+}
+
+#why_c2a:hover {
+	box-shadow: 0 0px 10px #c83737;
+}
+
+/* INFO BOX */
+
+#info-bar {
+	margin: 20px 0px 0px 0px;
+}
+
+#info-titles {
+	position: relative;
+}
+
+.tab {
+	background-color: #0088aa;
+	float: left;
+	width: 185px;
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 0px 10px 0px;
+	border-left: 1px solid #fff;
+	cursor: pointer;
+}
+
+.tab:hover {
+	background-color: #006680;
+}
+
+.info-selected {
+	background-color: #006680;
+}
+
+#info-content {
+	text-align: left;
+	padding: 15px 10px 10px 15px;
+	background-color: #edf6f9;
+}
+
+/* CONVINCE BAR */
+
+#convince-bar {
+	margin: 50px 0px 0px 0px;
+	position: relative;
+}
+
+.convincing {
+	width: 450px;
+}
+
+.convincing h3 {
+	font-size: 17px;
+	color: #fff;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+}
+
+.convincing div {
+	
+	text-align: left;
+	padding: 15px;
+}
+
+.convincing .c2a {
+	text-align: center;
+}
+
+#convince-dev {
+	float: left;
+}
+
+#convince-dev h3{
+	background-color: #0088aa;
+}
+
+#convince-dev div{
+	background-color: #edf6f9;
+}
+
+#convince-dev .c2a button {
+
+	width: 250px;
+	margin: 10px;
+	border: 0px;
+	color: white;
+	font-size: 16px;
+	padding: 10px 0px 10px 0px;
+	outline: 0px;
+	cursor: pointer;
+	background-color: #006680;
+}
+
+#convince-dev .c2a button:hover {
+	box-shadow: 0 0px 10px #006680;
+}
+
+#convince-boss {
+	float: right;
+}
+
+#convince-boss h3{
+	background-color: #550044;
+}
+
+#convince-boss div{
+	background-color: #fff1fc;
+}
+
+#convince-boss .c2a button {
+
+	width: 250px;
+	margin: 10px;
+	border: 0px;
+	color: white;
+	font-size: 16px;
+	padding: 10px 0px 10px 0px;
+	outline: 0px;
+	cursor: pointer;
+	background-color: #550044;
+}
+
+#convince-boss .c2a button:hover {
+	box-shadow: 0 0px 10px #550044;
+}
