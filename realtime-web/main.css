@@ -92,10 +92,12 @@ body, div, a, input, select, button, textarea {
 
 #info-bar {
 	margin: 20px 0px 0px 0px;
+	padding: 0px;
 }
 
 #info-titles {
 	position: relative;
+	padding: 0px;
 }
 
 .tab {
@@ -126,41 +128,33 @@ body, div, a, input, select, button, textarea {
 /* CONVINCE BAR */
 
 #convince-bar {
-	margin: 50px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	position: relative;
 }
 
-.convincing {
-	width: 450px;
-}
-
-.convincing h3 {
+.box .b_title {
 	font-size: 17px;
 	color: #fff;
 	padding: 10px 0px 10px 0px;
 	margin: 0px;
+	background-color: #0088aa;
 }
 
-.convincing div {
+.box .b_content {
 	
 	text-align: left;
 	padding: 15px;
+	background-color: #edf6f9;
+	border: 1px solid #ddd;
 }
 
-.convincing .c2a {
+.box .c2a {
 	text-align: center;
 }
 
 #convince-dev {
 	float: left;
-}
-
-#convince-dev h3{
-	background-color: #0088aa;
-}
-
-#convince-dev div{
-	background-color: #edf6f9;
+	width: 450px;
 }
 
 #convince-dev .c2a button {
@@ -182,13 +176,14 @@ body, div, a, input, select, button, textarea {
 
 #convince-boss {
 	float: right;
+	width: 450px;
 }
 
-#convince-boss h3{
+#convince-boss .b_title{
 	background-color: #550044;
 }
 
-#convince-boss div{
+#convince-boss .b_content{
 	background-color: #fff1fc;
 }
 
@@ -207,4 +202,37 @@ body, div, a, input, select, button, textarea {
 
 #convince-boss .c2a button:hover {
 	box-shadow: 0 0px 10px #550044;
+}
+
+/* Price Bar */
+
+#price-bar {
+	margin: 30px 0px 0px 0px;
+}
+
+#price-bar .b_content {
+	position: relative;
+	text-align: center;
+}
+
+/* Trainer Bar */
+
+#trainer-bar {
+	margin: 30px 0px 0px 0px;
+}
+
+#arunoda_left {
+	padding-top: 20px;
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+
+#arunoda_left img {
+	cursor: pointer;
+}
+
+#arunoda_right {
+	width: 650px;
+	float: left;
 }
