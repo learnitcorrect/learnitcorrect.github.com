@@ -20,8 +20,8 @@ body, div, a, input, select, button, textarea {
 
 #title {
 	margin: 50px 0px 0px 0px;
-	font-weight: normal;
 	font-size: 70px;
+	font-weight: normal;
 	color: #0088aa;
 }
 
@@ -103,7 +103,7 @@ body, div, a, input, select, button, textarea {
 .tab {
 	background-color: #0088aa;
 	float: left;
-	width: 185px;
+	width: 231px;
 	font-size: 17px;
 	color: #fff;
 	padding: 10px 0px 10px 0px;
